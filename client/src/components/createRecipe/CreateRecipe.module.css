@@ -1,0 +1,138 @@
+.fondo {
+    background: url(../../image/amari.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+    /*Probar*/
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* position: relative; */
+}
+
+.caja {
+    width: 25vh;
+    height: 5vh;
+    margin-top: 1.2vh;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    background: transparent;
+    border-color: red;
+    transition: 0.19s linear;
+    cursor: pointer;
+}
+.caja:hover {
+    color: rgb(128, 0, 255);
+    border: none;
+}
+.btn {
+    color: rgb(250, 20, 54);
+    font-size: 30px;
+    font-weight: 800;
+    background: transparent;
+    border: 3px solid rgb(65, 25, 32) ;
+    transition: 0.5ms step-end;
+    cursor: pointer;
+    margin-top: 400px;
+    margin-right: 10px;
+    
+}
+.btn:hover {
+    color: rgb(115, 0, 255);
+}
+.fondoform {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6px;
+    display: flex;
+    flex-direction:row;
+}
+
+.input {
+    margin: 3px;
+    padding: 5px 19px;
+    text-align: center;
+    border-radius: 15%;
+    border: none;
+}
+.error {
+    color: red;
+    margin-top: -0%;
+    margin-bottom: -0%;
+    text-align: center;
+}
+.h2 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.7rem;
+    color: rgba(48, 30, 9, 0.616);
+}
+.definicion {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.definicion2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-right: 100%;
+}
+.primero {
+    padding: 10px;
+}
+.inputl {
+    margin: 3px;
+    padding: 5px 19px;
+    height: 70px;
+    width: 300px;
+    border: none;
+}
+.boxis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.letra {
+    /* justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; */
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: rgba(48, 30, 9, 0.897);
+    margin-right: 2vw;
+}
+.select {
+    text-align: center;
+    background-color: rgba(48, 30, 9, 0.616);
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 10%;
+    /* font-size: 20px; */
+    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2); */
+    /* -webkit-appearance: button; */
+    /* appearance: button; */
+    /* outline: none; */
+}
+
+.btnDelect {
+    text-decoration: none;
+    width: 2vw;
+    height: 2vh;
+    background-color: rgba(48, 30, 9, 0.616);
+    color: rgb(184, 184, 184);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.651);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+}

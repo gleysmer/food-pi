@@ -1,0 +1,21 @@
+.nav {
+    padding: 1rem;
+}
+.ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.span {
+    color: rgb(245, 244, 244);
+    padding: 7px;
+    background: rgb(53, 50, 50);
+    margin: 2px;
+    font-weight: 600;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.span:hover {
+    color: black;
+    background-color: blanchedalmond;
+}

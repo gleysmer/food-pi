@@ -1,0 +1,30 @@
+.error {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30%;
+}
+.imagen {
+    border-radius: 25%;
+}
+
+.box {
+    width: 15vh;
+    height: 5vh;
+    margin-top: 24px;
+    margin-left: 40%;
+    /* margin-right: 10px; */
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    background: transparent;
+    border-radius: 18%;
+    transition: 0.15s linear;
+    cursor: pointer;
+    border: none;
+}
+.box:hover {
+    border: double;
+    color: rgb(6, 182, 68);
+    border-color: rgb(0, 183, 255);
+}
